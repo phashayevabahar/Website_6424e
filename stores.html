@@ -1,0 +1,394 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comics Hub | Best Comics Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="toradora.png" type="image/x-icon">
+   
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo-container">
+                <img src="toradora.png" alt="ComicHub Logo" class="logo">
+                <span>ComicHub</span>
+            </div>
+
+            <ul>
+
+                <a href="index.html"><div class="icon-cart">
+                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5"/>
+                </svg></div></a>
+
+                <a href="cart.html"><div class="icon-cart">
+                  🛒(<span id="cart-count">0</span>)
+                </div></a>
+
+                <a href="information.html"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                  </svg>
+                </a>
+
+                <a href="stores.html"><div class="icon-cart">
+                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                  </svg>
+                </div></a>
+
+                <a href="login.html" ><div class="icon-cart">
+                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">  
+                  <path stroke="currentColor" stroke-width="2" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                </svg></div></a>
+                
+            </ul>
+
+        </nav>
+        <div class="hero">
+            <h1>Welcome to ComicPulse</h1>
+            <p>Discover the best comics in your favorite genre</p>
+        </div>
+    </header>
+
+    <div id="content">
+
+        <div class="cards-with-stores">
+
+            <div class="card" style="width: 18rem;">
+                <img src="images/toradora.png" class="card-img-top" alt="Toradora">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: black;">Toradora Manga book</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2008</li>
+                  <li class="list-group-item">romance</li>
+                </ul>
+                <div class="card-body">
+                  <a href="https://www.amazon.com.tr/Toradora-Light-Novel-Vol-1/dp/1626927952" class="card-link">Amazon</a>
+                  <a href="https://www.barnesandnoble.com/w/toradora-volume-1-yuyuko-takemiya/1111718585" class="card-link">Barnes&Noble</a>
+                  <a href="https://store.crunchyroll.com/products/toradora-novel-volume-1-9781626927957.html" class="card-link">Crunchyroll</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="images/horimiya.png" class="card-img-top" alt="Horimiya">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: black;">Horimiya Manga book</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2021</li>
+                  <li class="list-group-item">romance</li>
+                </ul>
+                <div class="card-body">
+                  <a href="https://www.amazon.com/Horimiya-Vol-1-HERO/dp/0316342033" class="card-link">Amazon</a>
+                  <a href="https://www.barnesandnoble.com/w/horimiya-vol-1-hero/1121384538" class="card-link">Barnes&Noble</a>
+                  <a href="https://store.crunchyroll.com/products/horimiya-manga-volume-1-9780316342032.html" class="card-link">Crunchyroll</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="images/kaguya-sama_love-is-war.png" class="card-img-top" alt="Kaguya-sama: Love is War">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: black;">Kaguya-sama: Love is War Manga book</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2015</li>
+                  <li class="list-group-item">romance</li>
+                </ul>
+                <div class="card-body">
+                  <a href="https://www.amazon.com/Kaguya-sama-Love-War-Vol-1/dp/1974700305" class="card-link">Amazon</a>
+                  <a href="https://www.barnesandnoble.com/w/kaguya-sama-aka-akasaka/1127329514" class="card-link">Barnes&Noble</a>
+                  <a href="https://store.crunchyroll.com/products/kaguya-sama-love-is-war-manga-volume-1-9781974700301.html" class="card-link">Crunchyroll</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="images/charlotte.png" class="card-img-top" alt="Charlotte">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: black;">Charlotte Manga book</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2015</li>
+                  <li class="list-group-item">romance</li>
+                </ul>
+                <div class="card-body">
+                  <a href="https://www.amazon.com/Charlotte-Vol-1-KADOKAWA/dp/4048654276" class="card-link">Amazon</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="images/your-name.png" class="card-img-top" alt="Your Name">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: black;">Your Name Manga book</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2016</li>
+                  <li class="list-group-item">romance</li>
+                </ul>
+                <div class="card-body">
+                  <a href="https://www.amazon.com/your-name-Vol-manga/dp/0316558559" class="card-link">Amazon</a>
+                  <a href="https://www.barnesandnoble.com/w/your-name-vol-1-makoto-shinkai/1125254060" class="card-link">Barnes&Noble</a>
+                  <a href="https://store.crunchyroll.com/products/your-name-manga-volume-1-9780316558556.html" class="card-link">Crunchyroll</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="images/darling-in-the-franxx.png" class="card-img-top" alt="Darling in the Franxx">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: black;">Darling in the Franxx Manga book</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2018</li>
+                  <li class="list-group-item">romance</li>
+                </ul>
+                <div class="card-body">
+                  <a href="https://www.amazon.com/Darling-Franxx-Vol-1-Shueisha/dp/4088814541" class="card-link">Amazon</a>
+                  <a href="https://www.barnesandnoble.com/w/darling-in-the-franxx-vol-1-2-code-000/1139858133" class="card-link">Barnes&Noble</a>
+                  <a href="https://store.crunchyroll.com/products/darling-in-the-franxx-manga-omnibus-volume-1-9781638581437.html" class="card-link">Crunchyroll</a>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="images/Yahari-ore-no-seishun-love-comedy-wa-machigatteiru.png" class="card-img-top" alt="Yahari Ore no Seishun Love Comedy wa Machigatteiru">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: black;">Yahari Ore no Seishun Love Comedy wa Machigatteiru Manga book</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">2011</li>
+                  <li class="list-group-item">romance</li>
+                </ul>
+                <div class="card-body">
+                  <a href="https://www.amazon.com/Yahari-Seishun-Love-Come-Machigatteiru/dp/4094512624" class="card-link">Amazon</a>
+                  <a href="https://www.barnesandnoble.com/w/my-youth-romantic-comedy-is-wrong-as-i-expected-vol-1-wataru-watari/1122910176" class="card-link">Barnes&Noble</a>
+                  <a href="https://store.crunchyroll.com/products/my-youth-romantic-comedy-is-wrong-as-i-expected-novel-volume-1-9780316312295.html" class="card-link">Crunchyroll</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/one-piece.png" class="card-img-top" alt="One Piece">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">One Piece Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">adventure</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/one-piece-manga/s?k=one+piece+manga" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/w/one-piece-vol-1-eiichiro-oda/1129763095" class="card-link">Barnes&Noble</a>
+                <a href="https://store.crunchyroll.com/products/one-piece-manga-volume-1-9781569319017.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/hunter-x-hunter.png" class="card-img-top" alt="Hunter x Hunter">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Hunter x Hunter Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">adventure</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/hunter-x-manga/s?k=hunter+x+hunter+manga" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/b/series/hunter-x-hunter-series/_/N-2ww0" class="card-link">Barnes&Noble</a>
+                <a href="https://store.crunchyroll.com/products/hunter-x-hunter-manga-volume-1-9781591167532.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/Fullmetal-alchemist_brotherhood.png" class="card-img-top" alt="Fullmetal Alchemist: Brotherhood">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Fullmetal Alchemist: Brotherhood Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">adventure</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Fullmetal-Alchemist-Brotherhood-Part-1/dp/B0035LD83M" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/b/series/fullmetal-alchemist-series/_/N-2kph" class="card-link">Barnes&Noble</a>
+                <a href="https://store.crunchyroll.com/products/fullmetal-alchemist-brotherhood-box-set-1-blu-ray-816546021429.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/naturo.png" class="card-img-top" alt="Naruto">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Naruto Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">adventure</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Naruto-Vol-1-Uzumaki/dp/1569319006" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/b/series/naruto-series/_/N-2k2o" class="card-link">Barnes&Noble</a>
+                <a href="https://www.ebay.com/shop/naruto-volume-1-manga?_nkw=naruto+volume+1+manga" class="card-link">eBay</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/attack-on-titan.png" class="card-img-top" alt="Attack on Titan">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Attack on Titan Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">adventure</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Attack-on-Titan-34-book-series/dp/B09VJTTJZF" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/w/attack-on-titan-omnibus-1-hajime-isayama/1139104992?ean=9781646513741" class="card-link">Barnes&Noble</a>
+                <a href="https://store.crunchyroll.com/products/attack-on-titan-manga-omnibus-volume-1-9781646513741.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/dragon-ball.png" class="card-img-top" alt="Dragon Ball">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Dragon Ball Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">adventure</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Dragon-Ball-Vol-Akira-Toriyama/dp/1569319200" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/w/dragon-ball-vol-1-akira-toriyama/1114766881" class="card-link">Barnes&Noble</a>
+                <a href="https://store.crunchyroll.com/products/dragon-ball-manga-volume-1-2nd-ed-9781569319208.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/fairy-tail.png" class="card-img-top" alt="Fairy Tail">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Fairy Tail Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">adventure</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Fairy-Tail-1/dp/1612622763" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/w/fairy-tail-volume-1-hiro-mashima/1102624085" class="card-link">Barnes&Noble</a>
+                <a href="https://store.crunchyroll.com/products/fairy-tail-manga-omnibus-volume-1-9798888771464.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/steins_gate.png" class="card-img-top" alt="Steins;Gate">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Steins;Gate Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Science Fiction</li>
+              </ul>
+              <div class="card-body">
+                <a href="hhttps://www.amazon.com/Steins-Gate-1-5pb/dp/1927925509" class="card-link">Amazon</a>
+                <a href="https://www.abebooks.com/9781927925508/Steins-Gate-Volume-1-5pb-1927925509/plp" class="card-link">AbeBooks</a>
+                <a href="https://www.ebay.com/shop/steins-gate-manga?_nkw=steins+gate+manga" class="card-link">eBay</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/ghost-in-the-shell.png" class="card-img-top" alt="Ghost in the Shell">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Ghost in the Shell Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Science Fiction</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com.be/-/en/Masamune-Shirow/dp/1935429019" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/w/ghost-in-the-shell-volume-1-shirow-masamune/1102785178" class="card-link">Barnes&Noble</a>
+                <a href="https://www.ebay.com/shop/ghost-in-the-shell-manga?_nkw=ghost+in+the+shell+manga" class="card-link">eBay</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/psycho-pass.png" class="card-img-top" alt="Psycho-Pass">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Psycho-Pass Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Science Fiction</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Psycho-Pass-Inspector-Shinya-Kogami/dp/1506701205" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/w/psycho-pass-midori-gotu/1123498159" class="card-link">Barnes&Noble</a>
+                <a href="https://store.crunchyroll.com/products/psycho-pass-inspector-shinya-kogami-manga-volume-1-9781506701202.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/cowboy-bebop.png" class="card-img-top" alt="Cowboy Bebop">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Cowboy Bebop Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Science Fiction</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Cowboy-Bebop-1-v/dp/B0046LUZ9U" class="card-link">Amazon</a>
+                <a href="https://www.goodreads.com/book/show/555421.Cowboy_Bebop_Vol_1" class="card-link">Goodreads</a>
+                <a href="https://www.ebay.com/shop/cowboy-bebop-manga?_nkw=cowboy+bebop+manga" class="card-link">eBay</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/ergo-proxy.png" class="card-img-top" alt="Ergo Proxy">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Ergo Proxy Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Science Fiction</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Psycho-Pass-Inspector-Shinya-Kogami/dp/1506701205" class="card-link">Amazon</a>
+                <a href="https://www.booksamillion.com/p/Ergo-Proxy-Box-Set/Funimation-Prod/K704400078750" class="card-link">Book-A-Million</a>
+                <a href="https://store.crunchyroll.com/products/ergo-proxy-the-complete-series-classic-blu-ray-704400078767.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/pluto.png" class="card-img-top" alt="Pluto">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Pluto Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Science Fiction</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Pluto-Urasawa-Tezuka-Vol-Naoki/dp/1421519186" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/w/pluto-takashi-nagasaki/1137492109" class="card-link">Barnes&Noble</a>
+                <a href="https://store.crunchyroll.com/products/pluto-urasawa-x-tezuka-manga-volume-1-9781421519180.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="images/arika.png" class="card-img-top" alt="Akira">
+              <div class="card-body">
+                  <h5 class="card-title" style="color: black;">Akira Manga book</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Science Fiction</li>
+              </ul>
+              <div class="card-body">
+                <a href="https://www.amazon.com/Akira-Vol-1-Katsuhiro-Otomo/dp/1935429000" class="card-link">Amazon</a>
+                <a href="https://www.barnesandnoble.com/w/akira-volume-1-katsuhiro-otomo/1100322552" class="card-link">Barnes&Noble</a>
+                <a href="https://store.crunchyroll.com/products/akira-manga-volume-1-9781935429005.html" class="card-link">Crunchyroll</a>
+              </div>
+            </div>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    </div>
+
+    <footer style="text-align:left; color: white; margin-top: 50px;">
+      For advertisements, you can contact us. <br>
+      © 2025 Comics Store | Contact: hesapy040@gmail.com
+    </footer>
+</body>
+
+</html>
