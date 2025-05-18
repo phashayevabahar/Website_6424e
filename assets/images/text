@@ -1,0 +1,143 @@
+    <section class="store mb-5">      
+      <div class="filter__background"></div>
+      <ul class="filter">
+       <li class="active">ALL</li>
+       <li>Romance</li>
+       <li>Advanture</li>
+       <li>Science Fiction</li>
+       <li>Horror</li>
+      </ul>
+    </div>
+      <div class="row book__list">
+        <div class="col-5 offset-2">
+          <div class="row book__card">
+          <div class="col-6">
+            <img 
+             class="img-fluid shadow"
+             src="assets/images/books/charlotteweb.jpg"
+             width="258"
+             height="400" 
+           />
+          </div>
+          <div class="col-6 d-flex flex-column justify-content-between">
+            <div class="book__detail">
+              <span class="fos gray fs-5">Japanense Edition</span><br/>
+              <span class="fs-4 fw-bold">Charlotte</span><br/>
+              <span class="book__star-rate">
+                <i class="bi bi-star-fill active"></i>
+                <i class="bi bi-star-fill active"></i>
+                <i class="bi bi-star-fill active"></i>
+                <i class="bi bi-star-fill active"></i>
+                <i class="bi bi-star"></i>
+                <span class="gray">120 reviews</span>
+              </span>
+            </div>
+            <p class="book__description fos gray" >
+              A supernatural drama where certain teenagers develop special abilities. Yuu Otosaka, who can temporarily possess others, gets involved with Nao Tomori and a special academy for ability users. The story takes a deep emotional turn as Yuu faces major sacrifices.
+            </p>
+            <div>
+              <span class="black fw-bold fs-4 me-2"> 19.90₼</span>
+            </div>
+            <button class="btn__purple">ADD BASKET</button>
+          </div>
+          </div>
+        </div>
+      <div class="col-5 mb-5">
+        <div class="row book__card">
+        <div class="col-6">
+          <img 
+           class="img-fluid shadow"
+           src="assets/images/books/charlotteweb.jpg"
+           width="258"
+           height="400" 
+         />
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-between">
+          <div class="book__detail">
+            <span class="fos gray fs-5">Japanense Edition</span><br/>
+            <span class="fs-4 fw-bold">Charlotte</span><br/>
+            <span class="book__star-rate">
+              <i class="bi bi-star-fill active"></i>
+              <i class="bi bi-star-fill active"></i>
+              <i class="bi bi-star-fill active"></i>
+              <i class="bi bi-star-fill active"></i>
+              <i class="bi bi-star"></i>
+              <span class="gray">120 reviews</span>
+            </span>
+          </div>
+          <p class="book__description fos gray" >
+            A supernatural drama where certain teenagers develop special abilities. Yuu Otosaka, who can temporarily possess others, gets involved with Nao Tomori and a special academy for ability users. The story takes a deep emotional turn as Yuu faces major sacrifices.
+          </p>
+          <div>
+            <span class="black fw-bold fs-4 me-2"> 19.90₼</span>
+          </div>
+          <button class="btn__purple">ADD BASKET</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-5 offset-2">
+        <div class="row book__card">
+          <div class="col-6">
+            <img 
+             class="img-fluid shadow"
+             src="assets/images/books/charlotteweb.jpg"
+             width="258"
+             height="400" 
+           />
+          </div>
+          <div class="col-6 d-flex flex-column justify-content-between">
+            <div class="book__detail">
+              <span class="fos gray fs-5">Japanense Edition</span><br/>
+              <span class="fs-4 fw-bold">Charlotte</span><br/>
+              <span class="book__star-rate">
+                <i class="bi bi-star-fill active"></i>
+                <i class="bi bi-star-fill active"></i>
+                <i class="bi bi-star-fill active"></i>
+                <i class="bi bi-star-fill active"></i>
+                <i class="bi bi-star"></i>
+                <span class="gray">120 reviews</span>
+              </span>
+            </div>
+            <p class="book__description fos gray" >
+              A supernatural drama where certain teenagers develop special abilities. Yuu Otosaka, who can temporarily possess others, gets involved with Nao Tomori and a special academy for ability users. The story takes a deep emotional turn as Yuu faces major sacrifices.
+            </p>
+            <div>
+              <span class="black fw-bold fs-4 me-2"> 19.90₼</span>
+            </div>
+            <button class="btn__purple">ADD BASKET</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 mb-5"><div class="row book__card">
+        <div class="col-6">
+          <img 
+           class="img-fluid shadow"
+           src="assets/images/books/charlotteweb.jpg"
+           width="258"
+           height="400" 
+         />
+        </div>
+        <div class="col-6 d-flex flex-column justify-content-between">
+          <div class="book__detail">
+            <span class="fos gray fs-5">Japanense Edition</span><br/>
+            <span class="fs-4 fw-bold">Charlotte</span><br/>
+            <span class="book__star-rate">
+              <i class="bi bi-star-fill active"></i>
+              <i class="bi bi-star-fill active"></i>
+              <i class="bi bi-star-fill active"></i>
+              <i class="bi bi-star-fill active"></i>
+              <i class="bi bi-star"></i>
+              <span class="gray">120 reviews</span>
+            </span>
+          </div>
+          <p class="book__description fos gray" >
+            A supernatural drama where certain teenagers develop special abilities. Yuu Otosaka, who can temporarily possess others, gets involved with Nao Tomori and a special academy for ability users. The story takes a deep emotional turn as Yuu faces major sacrifices.
+          </p>
+          <div>
+            <span class="black fw-bold fs-4 me-2"> 19.90₼</span>
+          </div>
+          <button class="btn__purple">ADD BASKET</button>
+        </div>
+      </div></div>
+     </div>
+    </section>

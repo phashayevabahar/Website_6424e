@@ -1,11 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comics</title>
+    <title>ComicPulse | Best Comics Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="toradora.png" type="image/x-icon">
+   
 </head>
 <body>
-    <!-- Body part -->
+    <header class="header">
+        <nav>
+            <div class="logo-container">
+                <img src="toradora.png" alt="ComicHub Logo" class="logo">
+                <span>ComicHub</span>
+            </div>
+
+            <!-- Axtarış formu -->
+            <div class="search-container">
+                <button id="searchToggle" class="search-toggle">🔍</button>
+
+                <div id="searchPanel" class="search-panel">
+                    <input type="text" id="searchInput" placeholder="Search..." 
+                        onkeydown="if(event.key === 'Enter') performSearch()">
+                    <button id="searchButton">Search</button>
+                    <button id="closeSearch">✕</button>
+                </div>
+            </div>
+
+            <ul>
+
+                <a href="index.html"><div class="icon-cart">
+                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 12 8-8 8 8M6 10.5V19a1 1 0 0 0 1 1h3v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h3a1 1 0 0 0 1-1v-8.5"/>
+                </svg></div></a>
+
+                <a href="cart.html"><div class="icon-cart">
+                  🛒(<span id="cart-count">0</span>)
+                </div></a>
+
+                <a href="information.html"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                  </svg>
+                </a>
+
+                <a href="stores.html"><div class="icon-cart">
+                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                  </svg>
+                </div></a>
+
+                <a href="login.html" ><div class="icon-cart">
+                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">  
+                  <path stroke="currentColor" stroke-width="2" d="M7 17v1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+                </svg></div></a>
+                
+            </ul>
+
+        </nav>
+        <div class="hero">
+            <h1>Welcome to ComicPulse</h1>
+            <p>Discover the best comics in your favorite genre</p>
+        </div>
+    </header>
+    
+    <main>
+        <div id="content">
+
+            <section class="genre-section">
+                <h2>Adventure</h2>
+                <div>
+
+                    <div class="comic-card" style="display: flex;">
+                        <div><img src="books/onepiece.jpg" alt="" width="230" height="300" style="padding: 10px;"> </div>
+                        <div>
+                            <h3>One piece</h3>
+                            <p>is a legendary adventure series that follows Monkey D. Luffy and his pirate crew as they sail the treacherous Grand Line in search of the fabled treasure known as One Piece. With its rich world-building, emotional depth, and thrilling battles, this series takes viewers on an unforgettable journey filled with powerful friendships and intense challenges.
+                                Hunter x Hunter is a masterpiece known for its strategic fights, compelling characters, and gripping narrative. The story follows Gon Freecss, a young boy who embarks on a quest to become a Hunter and find his long-lost father. Throughout his journey, Gon faces powerful adversaries, uncovers dark secrets, and develops unbreakable bonds with his friends.</p> <br>
+                            <button class="add-to-cart-button" onclick="addToCart('One Piece', 22.99)">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="comic-card" style="display: flex;">
+                        <div><img src="books/hxh.jpg" alt="" width="230" height="300" style="padding: 10px;"> </div>
+                        <div>
+                            <h3>Hunter X Hunter</h3>
+                            <p>is a masterpiece known for its strategic fights, compelling characters, and gripping narrative. The story follows Gon Freecss, a young boy who embarks on a quest to become a Hunter and find his long-lost father. Throughout his journey, Gon faces powerful adversaries, uncovers dark secrets, and develops unbreakable bonds with his friends.</p><br> 
+                            <button class="add-to-cart-button" onclick="addToCart('Hunter X Hunter', 13.29)">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="comic-card" style="display: flex;">
+                        <div><img src="books/Naruto.jpg" alt="" width="230" height="300" style="padding: 10px;"> </div>
+                        <div>
+                            <h3>Naruto</h3>
+                            <p>is a legendary adventure series that follows Naruto Uzumaki, a young ninja with dreams of becoming the strongest Hokage. Along his journey, Naruto faces powerful enemies, uncovers deep mysteries about his past, and builds strong bonds with his friends. With its intense battles, emotional storytelling, and memorable characters, Naruto has become a timeless classic..</p>
+                            <br>    <button class="add-to-cart-button" onclick="addToCart('Naruto', 19.99)">Add to cart</button>
+                        </div>
+                    </div>
+                </div>   
+
+            </section>
+            
+            <section class="genre-section">
+                <h2>Romance</h2>
+                <div class="comic-card" style="display: flex;">
+                    <div><img src="books/TRD.png" alt="" width="230" height="300" style="padding: 10px;"> </div>
+                    <div>
+                        <h3>Toradora! (2008)</h3>
+                        <p> A classic romance anime featuring Ryuuji Takasu, a kind-hearted but intimidating-looking guy, and Taiga Aisaka, a small but fiery girl. They team up to help each other get closer to their respective crushes but end up developing feelings for each other instead.</p>
+                        <button class="add-to-cart-button" onclick="addToCart('Toradora!', 19.90)">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="comic-card" style="display: flex;">
+                    <div><img src="books/kaguya.jpg" alt="" width="230" height="300" style="padding: 10px;"> </div>
+                    <div>
+                        <h3>Kaguya-sama: Love is War</h3>
+                        <p> A high-IQ rom-com where Kaguya Shinomiya and Miyuki Shirogane, two top students at a prestigious academy, are in love but refuse to confess first. They engage in hilarious mind games to make the other confess first, leading to a battle of wits filled with comedy and romance.</p>
+                        <button class="add-to-cart-button" onclick="addToCart('Kaguya-sama: Love is War', 25.89)">Add to cart</button>
+                    </div>
+                </div> 
+
+                <div class="comic-card" style="display: flex;">
+                    <div><img src="books/yourname.jpg" alt="" width="230" height="300" style="padding: 10px;"> </div>
+                    <div>
+                        <h3>Your Name</h3>
+                        <p> A breathtaking romance movie about Mitsuha Miyamizu, a countryside girl, and Taki Tachibana, a Tokyo boy, who mysteriously swap bodies. As they try to navigate each other's lives, they uncover a heart-wrenching connection that transcends time and fate.</p>
+                        <button class="add-to-cart-button" onclick="addToCart('Your Name', 24.09)">Add to cart</button>
+                    </div>
+                </div>
+                
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>For advertisements, contact us at: <a href="mailto:hesapy040@gmail.com">hesapy040@gmail.com</a></p>
+    </footer>
+
+    <script src="java.js"></script>
+
+    <!-- JavaScript for search function -->
+    <script src="search.js"></script>
 </body>
 </html>
